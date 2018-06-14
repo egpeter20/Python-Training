@@ -22,5 +22,5 @@ print('The average score is', average)
 # congratulate the user.
 if average >= hight_score:
     print ('Congrats!')
-else
+else:
     print('That is a great average!')
