@@ -1,29 +1,34 @@
-# This program calculates sales commissions.
-
 # The while Loop: A Condition-Controlled Loop 
 
+# This program calculates sales commissions.
 # Creat a variable to control the loop.
 keep_going = 'y'
 
 # Calculate a series of commissions
 
-# while keep_going == 'y':
-#     sales = float(input('Enter the amount of sales: '))
-#     comm_rate = float(input('Enter the commission rate: '))
+while keep_going == 'y':
+    sales = float(input('Enter the amount of sales: '))
+    comm_rate = float(input('Enter the commission rate: '))
     
-#     # Calculate the commission
-#     commission = sales * comm_rate
+    # Calculate the commission
+    commission = sales * comm_rate
     
-#     # Display the commission.
-#     print('The commisssion is $', \
-#     format(commission, ',.2f'), sep='')
+    # Display the commission.
+    print('The commisssion is $', \
+    format(commission, ',.2f'), sep='')
     
-#     # See if the user wants to do another one.
-#     keep_going = input('Do you want to calculate another' + \
-#                 'commission (Enter y for yes): ')
-#     if keep_going != 'y':
-#         print('Good Bey!')
-        
+    # See if the user wants to do another one.
+    keep_going = input('Do you want to calculate another' + \
+                'commission (Enter y for yes): ')
+    if keep_going != 'y':
+    
+    
+# End of program
+
+
+print ('\n')
+
+
 # The for Loop: A Count-Controlled Loop
 
 for num in[0, 1, 2, 3, 4, 5]:
