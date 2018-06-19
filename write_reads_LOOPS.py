@@ -15,7 +15,7 @@ def main():
     for count in range(1, num_days + 1):
         # Get the sales for a day.
         sales = float(input('Enter the sales for day #' + \
-                str(count) + ': ')) 
+                str(count) + ': '))
                 
         # Write the sales amount to the file.
         sales_file.write(str(sales) + '\n')
