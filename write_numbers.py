@@ -15,11 +15,23 @@ def main():
     outFile.write(str(num1) + '\n')
     outFile.write(str(num2) + '\n')
     outFile.write(str(num3) + '\n')
-    
+
     
     # Close the file.
     outFile.close()
     
     print('Data written to numbers.txt')
+
+    # Open the file and sum its numbers
+    inFile = open('numbers.txt', 'r')
+    
+    num1 = int(inFile.readline())
+    num2 = int(inFile.readline())
+    num3 = int(inFile.readline())
+    
+    total = num1 + num2 + num3
+    
+    print('The sum is ', total)
+    
     
 main()
